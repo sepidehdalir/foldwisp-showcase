@@ -6,7 +6,7 @@
 
 Foldwisp arranges PDF pages onto A4 or US Letter sheets for a nested, folded booklet. A sheet preview explains the page pairs; a reading preview shows the intended result. An original two-sheet calibration guide helps users record their printer's reload direction before printing a full stack.
 
-**Status — October 19, 2026:** version 1.0 is in production. The App Store record and Lifetime Pro product exist; the app has not been submitted or released. Physical device/accessibility verification, physical print proof, genuine Sandbox verification and app-specific privacy certification remain open production gates. The signed universal archive passed Apple’s native validation, and an IPA was exported. The binary has not been uploaded or submitted.
+**Status — October 19, 2026:** version 1.0 is in production. The App Store record and Lifetime Pro product exist; the app has not been submitted or released. Physical device/accessibility verification, physical print proof, genuine Sandbox verification and app-specific privacy certification remain open production gates. An earlier signed universal candidate passed Apple’s native validation. The final accessibility corrections now have a newly signed/exported candidate awaiting repeat Apple validation and upload. The binary has not been uploaded or submitted.
 
 [Support](https://sepidehdalir.github.io/foldwisp-showcase/) · [Portfolio](https://github.com/sepidehdalir/ios-app-portfolio) · [Developer](https://www.arvinify.com)
 
@@ -45,7 +45,7 @@ The iPad layout places saved jobs beside a larger workspace. Accessibility text 
 
 Local core checks cover all supported page counts through an independent reading-order oracle; A4/Letter geometry and text placement; odd-page padding; mixed page boxes and rotation; maximum-page vector output; resource bounds; staged persistence; cancellation; and corrupt-record retention. The current portable and iPad core runs each passed 18 checks, with the separate physical file-protection check skipped in those environments.
 
-Five local StoreKit lifecycle tests passed on iOS 17, including purchase, entitlement recreation, refund, pending approval, cancellation/error and restore behavior. Native sample/export/relaunch and dedicated phone/tablet capture flows have passed in simulators. The native iPad print-options screen was presented without sending a print job.
+Five local StoreKit lifecycle tests passed on iOS 17, including purchase, entitlement recreation, refund, pending approval, cancellation/error and restore behavior. Native sample/export/relaunch and dedicated phone/tablet capture flows have passed in simulators. The native iPad print-options screen was presented without sending a print job. Selected native contrast and control-description audits passed in Light and Dark Mode after correcting text, modal buttons and Form headings. The refreshed marketing campaign uses that final UI. These audits do not establish a complete VoiceOver/device accessibility pass.
 
 These results do not establish physical folded output, genuine Apple Sandbox purchases, iOS 15 runtime behavior, device performance or an App Review receipt. iOS 15 runtime is unavailable on the current host. TestFlight is intentionally skipped by publisher instruction; required production checks remain separate.
 
