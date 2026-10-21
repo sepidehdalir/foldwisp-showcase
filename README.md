@@ -6,7 +6,7 @@
 
 Foldwisp arranges PDF pages onto A4 or US Letter sheets for a nested, folded booklet. A sheet preview explains the page pairs; a reading preview shows the intended result. An original two-sheet calibration guide helps users record their printer's reload direction before printing a full stack.
 
-**Current status — October 20, 2026:** App 1.0 (1) rejected under Guideline 4.3(a) on October 20, 2026; Lifetime Pro Ready for Review. Recovery in progress; no new binary resubmission, approval or release. The submitted V1 source remains frozen. First clarification is drafted only, not sent. Prior physical/native results and explicit Sandbox/print-proof skips are historical, not new recovery tests.
+**Current status — October 20, 2026:** App 1.0 (1) rejected under Guideline 4.3(a) on October 20, 2026; Lifetime Pro Ready for Review. Recovery in progress; no new binary resubmission, approval or release. The submitted V1 source remains frozen. First clarification is drafted only, not sent. Prior physical/native results and explicit Sandbox/print-proof skips are historical, not new recovery tests. First app-specific clarification sent October20,2026; concrete Apple feedback pending. This is not a binary resubmission.
 
 [Support](https://sepidehdalir.github.io/foldwisp-showcase/) · [Portfolio](https://github.com/sepidehdalir/ios-app-portfolio) · [Developer](https://www.arvinify.com)
 
