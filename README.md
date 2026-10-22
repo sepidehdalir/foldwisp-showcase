@@ -1,5 +1,7 @@
 <img src="assets/icon.png" alt="Foldwisp app icon" width="84">
 
+**Unsubmitted recovery work — October 21, 2026:** Unreadable and over-limit printer preset files now remain intact after Save or Remove actions, including at startup. Native preset and PDF/library suites passed 23 tests on both iOS 17 and 26.5, with one hardware-only file-protection check skipped on Simulator. Physical print output was not newly verified. The unsigned Release build passed. This is private-source work, not a new signed binary, submission, approval or resolution of Guideline 4.3. Premium campaign pixels are unchanged.
+
 # Foldwisp: Booklet Printing
 
 **A PDF on your device. A little book in your hands.**
